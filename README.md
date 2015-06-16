@@ -5,7 +5,7 @@
 
 # gulp-rev-rep
 Replace the asset parts of html with revisioned filename.
-You can find some example code ![https://github.com/nisnaker/gulp-rev-rep/examples/](here).
+You can find some example code [here](https://github.com/nisnaker/gulp-rev-rep/tree/master/examples).
 
 ## Install 
 ```sh
