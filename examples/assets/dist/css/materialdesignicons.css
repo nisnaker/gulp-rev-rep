@@ -1,0 +1,3042 @@
+/* MaterialDesignIcons.com */
+@font-face {
+  font-family: 'MaterialDesignIcons';
+  src: url("../fonts/materialdesignicons-webfont.eot?v=1.0.8");
+  src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=1.0.8") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=1.0.8") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=1.0.8") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=1.0.8") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=1.0.8#materialdesigniconsregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.mdi {
+  display: inline-block;
+  font: normal normal normal 24px/1 MaterialDesignIcons;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0); }
+
+.mdi-account::before {
+  content: "xf101"; }
+
+.mdi-account-alert::before {
+  content: "xf102"; }
+
+.mdi-account-box::before {
+  content: "xf103"; }
+
+.mdi-account-box-outline::before {
+  content: "xf104"; }
+
+.mdi-account-check::before {
+  content: "xf105"; }
+
+.mdi-account-circle::before {
+  content: "xf106"; }
+
+.mdi-account-key::before {
+  content: "xf107"; }
+
+.mdi-account-location::before {
+  content: "xf108"; }
+
+.mdi-account-minus::before {
+  content: "xf109"; }
+
+.mdi-account-multiple::before {
+  content: "xf10a"; }
+
+.mdi-account-multiple-outline::before {
+  content: "xf10b"; }
+
+.mdi-account-multiple-plus::before {
+  content: "xf10c"; }
+
+.mdi-account-network::before {
+  content: "xf10d"; }
+
+.mdi-account-outline::before {
+  content: "xf10e"; }
+
+.mdi-account-plus::before {
+  content: "xf10f"; }
+
+.mdi-account-remove::before {
+  content: "xf110"; }
+
+.mdi-account-search::before {
+  content: "xf111"; }
+
+.mdi-account-star::before {
+  content: "xf112"; }
+
+.mdi-account-star-variant::before {
+  content: "xf113"; }
+
+.mdi-account-switch::before {
+  content: "xf114"; }
+
+.mdi-airballoon::before {
+  content: "xf115"; }
+
+.mdi-airplane::before {
+  content: "xf116"; }
+
+.mdi-airplane-off::before {
+  content: "xf117"; }
+
+.mdi-alarm::before {
+  content: "xf118"; }
+
+.mdi-alarm-check::before {
+  content: "xf119"; }
+
+.mdi-alarm-multiple::before {
+  content: "xf11a"; }
+
+.mdi-alarm-off::before {
+  content: "xf11b"; }
+
+.mdi-alarm-plus::before {
+  content: "xf11c"; }
+
+.mdi-album::before {
+  content: "xf11d"; }
+
+.mdi-alert::before {
+  content: "xf11e"; }
+
+.mdi-alert-box::before {
+  content: "xf11f"; }
+
+.mdi-alert-circle::before {
+  content: "xf120"; }
+
+.mdi-alert-octagon::before {
+  content: "xf121"; }
+
+.mdi-alpha::before {
+  content: "xf122"; }
+
+.mdi-alphabetical::before {
+  content: "xf123"; }
+
+.mdi-amazon::before {
+  content: "xf124"; }
+
+.mdi-amazon-clouddrive::before {
+  content: "xf125"; }
+
+.mdi-ambulance::before {
+  content: "xf126"; }
+
+.mdi-android::before {
+  content: "xf127"; }
+
+.mdi-android-debug-bridge::before {
+  content: "xf128"; }
+
+.mdi-android-studio::before {
+  content: "xf129"; }
+
+.mdi-apple::before {
+  content: "xf12a"; }
+
+.mdi-apple-finder::before {
+  content: "xf12b"; }
+
+.mdi-apple-mobileme::before {
+  content: "xf12c"; }
+
+.mdi-apple-safari::before {
+  content: "xf12d"; }
+
+.mdi-appnet::before {
+  content: "xf12e"; }
+
+.mdi-apps::before {
+  content: "xf12f"; }
+
+.mdi-arrange-bring-forward::before {
+  content: "xf130"; }
+
+.mdi-arrange-bring-to-front::before {
+  content: "xf131"; }
+
+.mdi-arrange-send-backward::before {
+  content: "xf132"; }
+
+.mdi-arrange-send-to-back::before {
+  content: "xf133"; }
+
+.mdi-arrow-collapse::before {
+  content: "xf134"; }
+
+.mdi-arrow-down::before {
+  content: "xf135"; }
+
+.mdi-arrow-down-bold::before {
+  content: "xf136"; }
+
+.mdi-arrow-down-bold-circle::before {
+  content: "xf137"; }
+
+.mdi-arrow-down-bold-circle-outline::before {
+  content: "xf138"; }
+
+.mdi-arrow-down-bold-hexagon-outline::before {
+  content: "xf139"; }
+
+.mdi-arrow-expand::before {
+  content: "xf13a"; }
+
+.mdi-arrow-left::before {
+  content: "xf13b"; }
+
+.mdi-arrow-left-bold::before {
+  content: "xf13c"; }
+
+.mdi-arrow-left-bold-circle::before {
+  content: "xf13d"; }
+
+.mdi-arrow-left-bold-circle-outline::before {
+  content: "xf13e"; }
+
+.mdi-arrow-left-bold-hexagon-outline::before {
+  content: "xf13f"; }
+
+.mdi-arrow-right::before {
+  content: "xf140"; }
+
+.mdi-arrow-right-bold::before {
+  content: "xf141"; }
+
+.mdi-arrow-right-bold-circle::before {
+  content: "xf142"; }
+
+.mdi-arrow-right-bold-circle-outline::before {
+  content: "xf143"; }
+
+.mdi-arrow-right-bold-hexagon-outline::before {
+  content: "xf144"; }
+
+.mdi-arrow-up::before {
+  content: "xf145"; }
+
+.mdi-arrow-up-bold::before {
+  content: "xf146"; }
+
+.mdi-arrow-up-bold-circle::before {
+  content: "xf147"; }
+
+.mdi-arrow-up-bold-circle-outline::before {
+  content: "xf148"; }
+
+.mdi-arrow-up-bold-hexagon-outline::before {
+  content: "xf149"; }
+
+.mdi-attachment::before {
+  content: "xf14a"; }
+
+.mdi-auto-fix::before {
+  content: "xf14b"; }
+
+.mdi-auto-upload::before {
+  content: "xf14c"; }
+
+.mdi-backup-restore::before {
+  content: "xf14d"; }
+
+.mdi-bank::before {
+  content: "xf14e"; }
+
+.mdi-barcode::before {
+  content: "xf14f"; }
+
+.mdi-barrel::before {
+  content: "xf150"; }
+
+.mdi-basecamp::before {
+  content: "xf151"; }
+
+.mdi-basket::before {
+  content: "xf152"; }
+
+.mdi-basket-fill::before {
+  content: "xf153"; }
+
+.mdi-basket-unfill::before {
+  content: "xf154"; }
+
+.mdi-battery::before {
+  content: "xf155"; }
+
+.mdi-battery-20::before {
+  content: "xf156"; }
+
+.mdi-battery-30::before {
+  content: "xf157"; }
+
+.mdi-battery-40::before {
+  content: "xf158"; }
+
+.mdi-battery-60::before {
+  content: "xf159"; }
+
+.mdi-battery-80::before {
+  content: "xf15a"; }
+
+.mdi-battery-90::before {
+  content: "xf15b"; }
+
+.mdi-battery-alert::before {
+  content: "xf15c"; }
+
+.mdi-battery-charging-100::before {
+  content: "xf15d"; }
+
+.mdi-battery-charging-20::before {
+  content: "xf15e"; }
+
+.mdi-battery-charging-30::before {
+  content: "xf15f"; }
+
+.mdi-battery-charging-40::before {
+  content: "xf160"; }
+
+.mdi-battery-charging-60::before {
+  content: "xf161"; }
+
+.mdi-battery-charging-80::before {
+  content: "xf162"; }
+
+.mdi-battery-charging-90::before {
+  content: "xf163"; }
+
+.mdi-battery-minus::before {
+  content: "xf164"; }
+
+.mdi-battery-negative::before {
+  content: "xf165"; }
+
+.mdi-battery-outline::before {
+  content: "xf166"; }
+
+.mdi-battery-plus::before {
+  content: "xf167"; }
+
+.mdi-battery-positive::before {
+  content: "xf168"; }
+
+.mdi-battery-unknown::before {
+  content: "xf169"; }
+
+.mdi-beaker::before {
+  content: "xf16a"; }
+
+.mdi-beaker-empty::before {
+  content: "xf16b"; }
+
+.mdi-beaker-empty-outline::before {
+  content: "xf16c"; }
+
+.mdi-beaker-outline::before {
+  content: "xf16d"; }
+
+.mdi-beats::before {
+  content: "xf16e"; }
+
+.mdi-beer::before {
+  content: "xf16f"; }
+
+.mdi-behance::before {
+  content: "xf170"; }
+
+.mdi-bell::before {
+  content: "xf171"; }
+
+.mdi-bell-off::before {
+  content: "xf172"; }
+
+.mdi-bell-outline::before {
+  content: "xf173"; }
+
+.mdi-bell-ring::before {
+  content: "xf174"; }
+
+.mdi-bell-ring-outline::before {
+  content: "xf175"; }
+
+.mdi-bell-sleep::before {
+  content: "xf176"; }
+
+.mdi-beta::before {
+  content: "xf177"; }
+
+.mdi-bike::before {
+  content: "xf178"; }
+
+.mdi-bing::before {
+  content: "xf179"; }
+
+.mdi-bio::before {
+  content: "xf17a"; }
+
+.mdi-biohazard::before {
+  content: "xf17b"; }
+
+.mdi-blackberry::before {
+  content: "xf17c"; }
+
+.mdi-blinds::before {
+  content: "xf17d"; }
+
+.mdi-block-helper::before {
+  content: "xf17e"; }
+
+.mdi-blogger::before {
+  content: "xf17f"; }
+
+.mdi-bluetooth::before {
+  content: "xf180"; }
+
+.mdi-bluetooth-audio::before {
+  content: "xf181"; }
+
+.mdi-bluetooth-connect::before {
+  content: "xf182"; }
+
+.mdi-bluetooth-settings::before {
+  content: "xf183"; }
+
+.mdi-blur::before {
+  content: "xf184"; }
+
+.mdi-blur-linear::before {
+  content: "xf185"; }
+
+.mdi-blur-off::before {
+  content: "xf186"; }
+
+.mdi-blur-radial::before {
+  content: "xf187"; }
+
+.mdi-book::before {
+  content: "xf188"; }
+
+.mdi-book-multiple::before {
+  content: "xf189"; }
+
+.mdi-book-multiple-variant::before {
+  content: "xf18a"; }
+
+.mdi-book-variant::before {
+  content: "xf18b"; }
+
+.mdi-bookmark::before {
+  content: "xf18c"; }
+
+.mdi-bookmark-outline::before {
+  content: "xf18d"; }
+
+.mdi-border-all::before {
+  content: "xf18e"; }
+
+.mdi-border-bottom::before {
+  content: "xf18f"; }
+
+.mdi-border-color::before {
+  content: "xf190"; }
+
+.mdi-border-horizontal::before {
+  content: "xf191"; }
+
+.mdi-border-inside::before {
+  content: "xf192"; }
+
+.mdi-border-left::before {
+  content: "xf193"; }
+
+.mdi-border-none::before {
+  content: "xf194"; }
+
+.mdi-border-outside::before {
+  content: "xf195"; }
+
+.mdi-border-right::before {
+  content: "xf196"; }
+
+.mdi-border-top::before {
+  content: "xf197"; }
+
+.mdi-border-vertical::before {
+  content: "xf198"; }
+
+.mdi-bowling::before {
+  content: "xf199"; }
+
+.mdi-box::before {
+  content: "xf19a"; }
+
+.mdi-briefcase::before {
+  content: "xf19b"; }
+
+.mdi-briefcase-check::before {
+  content: "xf19c"; }
+
+.mdi-briefcase-download::before {
+  content: "xf19d"; }
+
+.mdi-briefcase-upload::before {
+  content: "xf19e"; }
+
+.mdi-brightness-1::before {
+  content: "xf19f"; }
+
+.mdi-brightness-2::before {
+  content: "xf1a0"; }
+
+.mdi-brightness-3::before {
+  content: "xf1a1"; }
+
+.mdi-brightness-4::before {
+  content: "xf1a2"; }
+
+.mdi-brightness-5::before {
+  content: "xf1a3"; }
+
+.mdi-brightness-6::before {
+  content: "xf1a4"; }
+
+.mdi-brightness-7::before {
+  content: "xf1a5"; }
+
+.mdi-brightness-auto::before {
+  content: "xf1a6"; }
+
+.mdi-broom::before {
+  content: "xf1a7"; }
+
+.mdi-brush::before {
+  content: "xf1a8"; }
+
+.mdi-bug::before {
+  content: "xf1a9"; }
+
+.mdi-bus::before {
+  content: "xf1aa"; }
+
+.mdi-cake::before {
+  content: "xf1ab"; }
+
+.mdi-cake-variant::before {
+  content: "xf1ac"; }
+
+.mdi-calculator::before {
+  content: "xf1ad"; }
+
+.mdi-calendar::before {
+  content: "xf1ae"; }
+
+.mdi-calendar-check::before {
+  content: "xf1af"; }
+
+.mdi-calendar-remove::before {
+  content: "xf1b0"; }
+
+.mdi-calendar-text::before {
+  content: "xf1b1"; }
+
+.mdi-calendar-today::before {
+  content: "xf1b2"; }
+
+.mdi-camcorder::before {
+  content: "xf1b3"; }
+
+.mdi-camcorder-box::before {
+  content: "xf1b4"; }
+
+.mdi-camcorder-box-off::before {
+  content: "xf1b5"; }
+
+.mdi-camcorder-off::before {
+  content: "xf1b6"; }
+
+.mdi-camera::before {
+  content: "xf1b7"; }
+
+.mdi-camera-iris::before {
+  content: "xf1b8"; }
+
+.mdi-camera-party-mode::before {
+  content: "xf1b9"; }
+
+.mdi-camera-switch::before {
+  content: "xf1ba"; }
+
+.mdi-camera-timer::before {
+  content: "xf1bb"; }
+
+.mdi-candycane::before {
+  content: "xf1bc"; }
+
+.mdi-car::before {
+  content: "xf1bd"; }
+
+.mdi-car-wash::before {
+  content: "xf1be"; }
+
+.mdi-carrot::before {
+  content: "xf1bf"; }
+
+.mdi-cart::before {
+  content: "xf1c0"; }
+
+.mdi-cart-outline::before {
+  content: "xf1c1"; }
+
+.mdi-cash::before {
+  content: "xf1c2"; }
+
+.mdi-cast::before {
+  content: "xf1c3"; }
+
+.mdi-cast-connected::before {
+  content: "xf1c4"; }
+
+.mdi-castle::before {
+  content: "xf1c5"; }
+
+.mdi-cellphone::before {
+  content: "xf1c6"; }
+
+.mdi-cellphone-android::before {
+  content: "xf1c7"; }
+
+.mdi-cellphone-dock::before {
+  content: "xf1c8"; }
+
+.mdi-cellphone-iphone::before {
+  content: "xf1c9"; }
+
+.mdi-cellphone-link::before {
+  content: "xf1ca"; }
+
+.mdi-cellphone-link-off::before {
+  content: "xf1cb"; }
+
+.mdi-cellphone-settings::before {
+  content: "xf1cc"; }
+
+.mdi-chair-school::before {
+  content: "xf1cd"; }
+
+.mdi-chart-bar::before {
+  content: "xf1ce"; }
+
+.mdi-chart-histogram::before {
+  content: "xf1cf"; }
+
+.mdi-chart-line::before {
+  content: "xf1d0"; }
+
+.mdi-check::before {
+  content: "xf1d1"; }
+
+.mdi-check-all::before {
+  content: "xf1d2"; }
+
+.mdi-checkbox-blank::before {
+  content: "xf1d3"; }
+
+.mdi-checkbox-blank-circle::before {
+  content: "xf1d4"; }
+
+.mdi-checkbox-blank-circle-outline::before {
+  content: "xf1d5"; }
+
+.mdi-checkbox-blank-outline::before {
+  content: "xf1d6"; }
+
+.mdi-checkbox-marked::before {
+  content: "xf1d7"; }
+
+.mdi-checkbox-marked-circle::before {
+  content: "xf1d8"; }
+
+.mdi-checkbox-marked-circle-outline::before {
+  content: "xf1d9"; }
+
+.mdi-checkbox-marked-outline::before {
+  content: "xf1da"; }
+
+.mdi-checkbox-multiple-blank::before {
+  content: "xf1db"; }
+
+.mdi-checkbox-multiple-blank-outline::before {
+  content: "xf1dc"; }
+
+.mdi-checkbox-multiple-marked::before {
+  content: "xf1dd"; }
+
+.mdi-checkbox-multiple-marked-outline::before {
+  content: "xf1de"; }
+
+.mdi-chevron-double-down::before {
+  content: "xf1df"; }
+
+.mdi-chevron-double-left::before {
+  content: "xf1e0"; }
+
+.mdi-chevron-double-right::before {
+  content: "xf1e1"; }
+
+.mdi-chevron-double-up::before {
+  content: "xf1e2"; }
+
+.mdi-chevron-down::before {
+  content: "xf1e3"; }
+
+.mdi-chevron-left::before {
+  content: "xf1e4"; }
+
+.mdi-chevron-right::before {
+  content: "xf1e5"; }
+
+.mdi-chevron-up::before {
+  content: "xf1e6"; }
+
+.mdi-church::before {
+  content: "xf1e7"; }
+
+.mdi-city::before {
+  content: "xf1e8"; }
+
+.mdi-clipboard::before {
+  content: "xf1e9"; }
+
+.mdi-clipboard-account::before {
+  content: "xf1ea"; }
+
+.mdi-clipboard-alert::before {
+  content: "xf1eb"; }
+
+.mdi-clipboard-arrow-down::before {
+  content: "xf1ec"; }
+
+.mdi-clipboard-arrow-left::before {
+  content: "xf1ed"; }
+
+.mdi-clipboard-check::before {
+  content: "xf1ee"; }
+
+.mdi-clipboard-outline::before {
+  content: "xf1ef"; }
+
+.mdi-clipboard-text::before {
+  content: "xf1f0"; }
+
+.mdi-clippy::before {
+  content: "xf1f1"; }
+
+.mdi-clock::before {
+  content: "xf1f2"; }
+
+.mdi-clock-fast::before {
+  content: "xf1f3"; }
+
+.mdi-close::before {
+  content: "xf1f4"; }
+
+.mdi-close-box::before {
+  content: "xf1f5"; }
+
+.mdi-close-box-outline::before {
+  content: "xf1f6"; }
+
+.mdi-close-circle::before {
+  content: "xf1f7"; }
+
+.mdi-close-circle-outline::before {
+  content: "xf1f8"; }
+
+.mdi-close-network::before {
+  content: "xf1f9"; }
+
+.mdi-closed-caption::before {
+  content: "xf1fa"; }
+
+.mdi-cloud::before {
+  content: "xf1fb"; }
+
+.mdi-cloud-check::before {
+  content: "xf1fc"; }
+
+.mdi-cloud-circle::before {
+  content: "xf1fd"; }
+
+.mdi-cloud-download::before {
+  content: "xf1fe"; }
+
+.mdi-cloud-outline::before {
+  content: "xf1ff"; }
+
+.mdi-cloud-outline-off::before {
+  content: "xf200"; }
+
+.mdi-cloud-upload::before {
+  content: "xf201"; }
+
+.mdi-code-array::before {
+  content: "xf202"; }
+
+.mdi-code-string::before {
+  content: "xf203"; }
+
+.mdi-coffee::before {
+  content: "xf204"; }
+
+.mdi-coffee-to-go::before {
+  content: "xf205"; }
+
+.mdi-coin::before {
+  content: "xf206"; }
+
+.mdi-color-helper::before {
+  content: "xf207"; }
+
+.mdi-comment::before {
+  content: "xf208"; }
+
+.mdi-comment-account::before {
+  content: "xf209"; }
+
+.mdi-comment-account-outline::before {
+  content: "xf20a"; }
+
+.mdi-comment-alert::before {
+  content: "xf20b"; }
+
+.mdi-comment-alert-outline::before {
+  content: "xf20c"; }
+
+.mdi-comment-check::before {
+  content: "xf20d"; }
+
+.mdi-comment-check-outline::before {
+  content: "xf20e"; }
+
+.mdi-comment-multipe-outline::before {
+  content: "xf20f"; }
+
+.mdi-comment-outline::before {
+  content: "xf210"; }
+
+.mdi-comment-plus-outline::before {
+  content: "xf211"; }
+
+.mdi-comment-processing::before {
+  content: "xf212"; }
+
+.mdi-comment-processing-outline::before {
+  content: "xf213"; }
+
+.mdi-comment-remove-outline::before {
+  content: "xf214"; }
+
+.mdi-comment-text::before {
+  content: "xf215"; }
+
+.mdi-comment-text-outline::before {
+  content: "xf216"; }
+
+.mdi-compare::before {
+  content: "xf217"; }
+
+.mdi-compass::before {
+  content: "xf218"; }
+
+.mdi-compass-outline::before {
+  content: "xf219"; }
+
+.mdi-console::before {
+  content: "xf21a"; }
+
+.mdi-content-copy::before {
+  content: "xf21b"; }
+
+.mdi-content-cut::before {
+  content: "xf21c"; }
+
+.mdi-content-paste::before {
+  content: "xf21d"; }
+
+.mdi-content-save::before {
+  content: "xf21e"; }
+
+.mdi-content-save-all::before {
+  content: "xf21f"; }
+
+.mdi-contrast::before {
+  content: "xf220"; }
+
+.mdi-contrast-box::before {
+  content: "xf221"; }
+
+.mdi-contrast-circle::before {
+  content: "xf222"; }
+
+.mdi-cow::before {
+  content: "xf223"; }
+
+.mdi-credit-card::before {
+  content: "xf224"; }
+
+.mdi-crop::before {
+  content: "xf225"; }
+
+.mdi-crop-free::before {
+  content: "xf226"; }
+
+.mdi-crop-landscape::before {
+  content: "xf227"; }
+
+.mdi-crop-portrait::before {
+  content: "xf228"; }
+
+.mdi-crop-square::before {
+  content: "xf229"; }
+
+.mdi-crosshairs::before {
+  content: "xf22a"; }
+
+.mdi-crosshairs-gps::before {
+  content: "xf22b"; }
+
+.mdi-cube::before {
+  content: "xf22c"; }
+
+.mdi-cube-outline::before {
+  content: "xf22d"; }
+
+.mdi-cube-unfolded::before {
+  content: "xf22e"; }
+
+.mdi-cup::before {
+  content: "xf22f"; }
+
+.mdi-cup-water::before {
+  content: "xf230"; }
+
+.mdi-currency-btc::before {
+  content: "xf231"; }
+
+.mdi-currency-usd::before {
+  content: "xf232"; }
+
+.mdi-cursor-default::before {
+  content: "xf233"; }
+
+.mdi-cursor-default-outline::before {
+  content: "xf234"; }
+
+.mdi-cursor-pointer::before {
+  content: "xf235"; }
+
+.mdi-database::before {
+  content: "xf236"; }
+
+.mdi-database-minus::before {
+  content: "xf237"; }
+
+.mdi-database-outline::before {
+  content: "xf238"; }
+
+.mdi-database-plus::before {
+  content: "xf239"; }
+
+.mdi-debug-step-into::before {
+  content: "xf23a"; }
+
+.mdi-debug-step-out::before {
+  content: "xf23b"; }
+
+.mdi-debug-step-over::before {
+  content: "xf23c"; }
+
+.mdi-delete::before {
+  content: "xf23d"; }
+
+.mdi-delete-variant::before {
+  content: "xf23e"; }
+
+.mdi-deskphone::before {
+  content: "xf23f"; }
+
+.mdi-desktop-mac::before {
+  content: "xf240"; }
+
+.mdi-desktop-tower::before {
+  content: "xf241"; }
+
+.mdi-details::before {
+  content: "xf242"; }
+
+.mdi-deviantart::before {
+  content: "xf243"; }
+
+.mdi-dice::before {
+  content: "xf244"; }
+
+.mdi-dice-1::before {
+  content: "xf245"; }
+
+.mdi-dice-2::before {
+  content: "xf246"; }
+
+.mdi-dice-3::before {
+  content: "xf247"; }
+
+.mdi-dice-4::before {
+  content: "xf248"; }
+
+.mdi-dice-5::before {
+  content: "xf249"; }
+
+.mdi-dice-6::before {
+  content: "xf24a"; }
+
+.mdi-directions::before {
+  content: "xf24b"; }
+
+.mdi-disk-alert::before {
+  content: "xf24c"; }
+
+.mdi-disqus::before {
+  content: "xf24d"; }
+
+.mdi-disqus-outline::before {
+  content: "xf24e"; }
+
+.mdi-division::before {
+  content: "xf24f"; }
+
+.mdi-division-box::before {
+  content: "xf250"; }
+
+.mdi-dns::before {
+  content: "xf251"; }
+
+.mdi-dots-horizontal::before {
+  content: "xf252"; }
+
+.mdi-dots-vertical::before {
+  content: "xf253"; }
+
+.mdi-download::before {
+  content: "xf254"; }
+
+.mdi-drawing::before {
+  content: "xf255"; }
+
+.mdi-drawing-box::before {
+  content: "xf256"; }
+
+.mdi-dribbble::before {
+  content: "xf257"; }
+
+.mdi-dribbble-box::before {
+  content: "xf258"; }
+
+.mdi-drone::before {
+  content: "xf259"; }
+
+.mdi-dropbox::before {
+  content: "xf25a"; }
+
+.mdi-duck::before {
+  content: "xf25b"; }
+
+.mdi-earth::before {
+  content: "xf25c"; }
+
+.mdi-earth-off::before {
+  content: "xf25d"; }
+
+.mdi-elevation-decline::before {
+  content: "xf25e"; }
+
+.mdi-elevation-rise::before {
+  content: "xf25f"; }
+
+.mdi-email::before {
+  content: "xf260"; }
+
+.mdi-email-open::before {
+  content: "xf261"; }
+
+.mdi-email-outline::before {
+  content: "xf262"; }
+
+.mdi-emoticon::before {
+  content: "xf263"; }
+
+.mdi-emoticon-cool::before {
+  content: "xf264"; }
+
+.mdi-emoticon-devil::before {
+  content: "xf265"; }
+
+.mdi-emoticon-happy::before {
+  content: "xf266"; }
+
+.mdi-emoticon-neutral::before {
+  content: "xf267"; }
+
+.mdi-emoticon-poop::before {
+  content: "xf268"; }
+
+.mdi-emoticon-sad::before {
+  content: "xf269"; }
+
+.mdi-emoticon-tongue::before {
+  content: "xf26a"; }
+
+.mdi-equal::before {
+  content: "xf26b"; }
+
+.mdi-equal-box::before {
+  content: "xf26c"; }
+
+.mdi-eraser::before {
+  content: "xf26d"; }
+
+.mdi-escalator::before {
+  content: "xf26e"; }
+
+.mdi-etsy::before {
+  content: "xf26f"; }
+
+.mdi-evernote::before {
+  content: "xf270"; }
+
+.mdi-exit-to-app::before {
+  content: "xf271"; }
+
+.mdi-eye::before {
+  content: "xf272"; }
+
+.mdi-eye-off::before {
+  content: "xf273"; }
+
+.mdi-eyedropper::before {
+  content: "xf274"; }
+
+.mdi-eyedropper-variant::before {
+  content: "xf275"; }
+
+.mdi-facebook::before {
+  content: "xf276"; }
+
+.mdi-facebook-box::before {
+  content: "xf277"; }
+
+.mdi-facebook-messenger::before {
+  content: "xf278"; }
+
+.mdi-factory::before {
+  content: "xf279"; }
+
+.mdi-fast-forward::before {
+  content: "xf27a"; }
+
+.mdi-ferry::before {
+  content: "xf27b"; }
+
+.mdi-file::before {
+  content: "xf27c"; }
+
+.mdi-file-cloud::before {
+  content: "xf27d"; }
+
+.mdi-file-delimited::before {
+  content: "xf27e"; }
+
+.mdi-file-document::before {
+  content: "xf27f"; }
+
+.mdi-file-document-box::before {
+  content: "xf280"; }
+
+.mdi-file-excel::before {
+  content: "xf281"; }
+
+.mdi-file-excel-box::before {
+  content: "xf282"; }
+
+.mdi-file-find::before {
+  content: "xf283"; }
+
+.mdi-file-image::before {
+  content: "xf284"; }
+
+.mdi-file-image-box::before {
+  content: "xf285"; }
+
+.mdi-file-music::before {
+  content: "xf286"; }
+
+.mdi-file-outline::before {
+  content: "xf287"; }
+
+.mdi-file-pdf::before {
+  content: "xf288"; }
+
+.mdi-file-pdf-box::before {
+  content: "xf289"; }
+
+.mdi-file-powerpoint::before {
+  content: "xf28a"; }
+
+.mdi-file-powerpoint-box::before {
+  content: "xf28b"; }
+
+.mdi-file-presentation-box::before {
+  content: "xf28c"; }
+
+.mdi-file-video::before {
+  content: "xf28d"; }
+
+.mdi-file-word::before {
+  content: "xf28e"; }
+
+.mdi-file-word-box::before {
+  content: "xf28f"; }
+
+.mdi-film::before {
+  content: "xf290"; }
+
+.mdi-filmstrip::before {
+  content: "xf291"; }
+
+.mdi-filmstrip-off::before {
+  content: "xf292"; }
+
+.mdi-filter::before {
+  content: "xf293"; }
+
+.mdi-filter-outline::before {
+  content: "xf294"; }
+
+.mdi-filter-remove::before {
+  content: "xf295"; }
+
+.mdi-filter-remove-outline::before {
+  content: "xf296"; }
+
+.mdi-filter-variant::before {
+  content: "xf297"; }
+
+.mdi-fire::before {
+  content: "xf298"; }
+
+.mdi-firefox::before {
+  content: "xf299"; }
+
+.mdi-fish::before {
+  content: "xf29a"; }
+
+.mdi-flag::before {
+  content: "xf29b"; }
+
+.mdi-flag-checkered::before {
+  content: "xf29c"; }
+
+.mdi-flag-outline::before {
+  content: "xf29d"; }
+
+.mdi-flag-outline-variant::before {
+  content: "xf29e"; }
+
+.mdi-flag-variant::before {
+  content: "xf29f"; }
+
+.mdi-flash::before {
+  content: "xf2a0"; }
+
+.mdi-flash-auto::before {
+  content: "xf2a1"; }
+
+.mdi-flash-off::before {
+  content: "xf2a2"; }
+
+.mdi-flashlight::before {
+  content: "xf2a3"; }
+
+.mdi-flashlight-off::before {
+  content: "xf2a4"; }
+
+.mdi-flip-to-back::before {
+  content: "xf2a5"; }
+
+.mdi-flip-to-front::before {
+  content: "xf2a6"; }
+
+.mdi-floppy::before {
+  content: "xf2a7"; }
+
+.mdi-flower::before {
+  content: "xf2a8"; }
+
+.mdi-folder::before {
+  content: "xf2a9"; }
+
+.mdi-folder-account::before {
+  content: "xf2aa"; }
+
+.mdi-folder-google-drive::before {
+  content: "xf2ab"; }
+
+.mdi-folder-image::before {
+  content: "xf2ac"; }
+
+.mdi-folder-move::before {
+  content: "xf2ad"; }
+
+.mdi-folder-multiple::before {
+  content: "xf2ae"; }
+
+.mdi-folder-multiple-image::before {
+  content: "xf2af"; }
+
+.mdi-folder-multiple-outline::before {
+  content: "xf2b0"; }
+
+.mdi-folder-outline::before {
+  content: "xf2b1"; }
+
+.mdi-folder-plus::before {
+  content: "xf2b2"; }
+
+.mdi-folder-remove::before {
+  content: "xf2b3"; }
+
+.mdi-food::before {
+  content: "xf2b4"; }
+
+.mdi-food-apple::before {
+  content: "xf2b5"; }
+
+.mdi-food-variant::before {
+  content: "xf2b6"; }
+
+.mdi-format-align-center::before {
+  content: "xf2b7"; }
+
+.mdi-format-align-justify::before {
+  content: "xf2b8"; }
+
+.mdi-format-align-left::before {
+  content: "xf2b9"; }
+
+.mdi-format-align-right::before {
+  content: "xf2ba"; }
+
+.mdi-format-bold::before {
+  content: "xf2bb"; }
+
+.mdi-format-clear::before {
+  content: "xf2bc"; }
+
+.mdi-format-color-fill::before {
+  content: "xf2bd"; }
+
+.mdi-format-header-1::before {
+  content: "xf2be"; }
+
+.mdi-format-header-2::before {
+  content: "xf2bf"; }
+
+.mdi-format-header-3::before {
+  content: "xf2c0"; }
+
+.mdi-format-header-4::before {
+  content: "xf2c1"; }
+
+.mdi-format-header-5::before {
+  content: "xf2c2"; }
+
+.mdi-format-header-6::before {
+  content: "xf2c3"; }
+
+.mdi-format-header-pound::before {
+  content: "xf2c4"; }
+
+.mdi-format-indent-decrease::before {
+  content: "xf2c5"; }
+
+.mdi-format-indent-increase::before {
+  content: "xf2c6"; }
+
+.mdi-format-italic::before {
+  content: "xf2c7"; }
+
+.mdi-format-line-spacing::before {
+  content: "xf2c8"; }
+
+.mdi-format-list-bulleted::before {
+  content: "xf2c9"; }
+
+.mdi-format-list-numbers::before {
+  content: "xf2ca"; }
+
+.mdi-format-paint::before {
+  content: "xf2cb"; }
+
+.mdi-format-paragraph::before {
+  content: "xf2cc"; }
+
+.mdi-format-quote::before {
+  content: "xf2cd"; }
+
+.mdi-format-size::before {
+  content: "xf2ce"; }
+
+.mdi-format-strikethrough::before {
+  content: "xf2cf"; }
+
+.mdi-format-subscript::before {
+  content: "xf2d0"; }
+
+.mdi-format-superscript::before {
+  content: "xf2d1"; }
+
+.mdi-format-textdirection-l-to-r::before {
+  content: "xf2d2"; }
+
+.mdi-format-textdirection-r-to-l::before {
+  content: "xf2d3"; }
+
+.mdi-format-underline::before {
+  content: "xf2d4"; }
+
+.mdi-forum::before {
+  content: "xf2d5"; }
+
+.mdi-forward::before {
+  content: "xf2d6"; }
+
+.mdi-foursquare::before {
+  content: "xf2d7"; }
+
+.mdi-fullscreen::before {
+  content: "xf2d8"; }
+
+.mdi-fullscreen-exit::before {
+  content: "xf2d9"; }
+
+.mdi-gamepad::before {
+  content: "xf2da"; }
+
+.mdi-gamepad-variant::before {
+  content: "xf2db"; }
+
+.mdi-gas-station::before {
+  content: "xf2dc"; }
+
+.mdi-gavel::before {
+  content: "xf2dd"; }
+
+.mdi-gender-female::before {
+  content: "xf2de"; }
+
+.mdi-gender-male::before {
+  content: "xf2df"; }
+
+.mdi-gender-transgender::before {
+  content: "xf2e0"; }
+
+.mdi-gift::before {
+  content: "xf2e1"; }
+
+.mdi-github-box::before {
+  content: "xf2e2"; }
+
+.mdi-github-circle::before {
+  content: "xf2e3"; }
+
+.mdi-gmail::before {
+  content: "xf2e4"; }
+
+.mdi-google::before {
+  content: "xf2e5"; }
+
+.mdi-google-chrome::before {
+  content: "xf2e6"; }
+
+.mdi-google-circles::before {
+  content: "xf2e7"; }
+
+.mdi-google-circles-communities::before {
+  content: "xf2e8"; }
+
+.mdi-google-circles-extended::before {
+  content: "xf2e9"; }
+
+.mdi-google-circles-group::before {
+  content: "xf2ea"; }
+
+.mdi-google-drive::before {
+  content: "xf2eb"; }
+
+.mdi-google-earth::before {
+  content: "xf2ec"; }
+
+.mdi-google-glass::before {
+  content: "xf2ed"; }
+
+.mdi-google-maps::before {
+  content: "xf2ee"; }
+
+.mdi-google-pages::before {
+  content: "xf2ef"; }
+
+.mdi-google-play::before {
+  content: "xf2f0"; }
+
+.mdi-google-plus::before {
+  content: "xf2f1"; }
+
+.mdi-google-plus-box::before {
+  content: "xf2f2"; }
+
+.mdi-guitar-pick::before {
+  content: "xf2f3"; }
+
+.mdi-guitar-pick-outline::before {
+  content: "xf2f4"; }
+
+.mdi-hand-pointing-right::before {
+  content: "xf2f5"; }
+
+.mdi-hanger::before {
+  content: "xf2f6"; }
+
+.mdi-hangouts::before {
+  content: "xf2f7"; }
+
+.mdi-harddisk::before {
+  content: "xf2f8"; }
+
+.mdi-headphones::before {
+  content: "xf2f9"; }
+
+.mdi-headphones-box::before {
+  content: "xf2fa"; }
+
+.mdi-headphones-settings::before {
+  content: "xf2fb"; }
+
+.mdi-headset::before {
+  content: "xf2fc"; }
+
+.mdi-headset-dock::before {
+  content: "xf2fd"; }
+
+.mdi-heart::before {
+  content: "xf2fe"; }
+
+.mdi-heart-box::before {
+  content: "xf2ff"; }
+
+.mdi-heart-box-outline::before {
+  content: "xf300"; }
+
+.mdi-heart-outline::before {
+  content: "xf301"; }
+
+.mdi-help::before {
+  content: "xf302"; }
+
+.mdi-help-circle::before {
+  content: "xf303"; }
+
+.mdi-hexagon::before {
+  content: "xf304"; }
+
+.mdi-hexagon-outline::before {
+  content: "xf305"; }
+
+.mdi-history::before {
+  content: "xf306"; }
+
+.mdi-home::before {
+  content: "xf307"; }
+
+.mdi-home-modern::before {
+  content: "xf308"; }
+
+.mdi-home-variant::before {
+  content: "xf309"; }
+
+.mdi-hospital::before {
+  content: "xf30a"; }
+
+.mdi-hospital-building::before {
+  content: "xf30b"; }
+
+.mdi-hospital-marker::before {
+  content: "xf30c"; }
+
+.mdi-hotel::before {
+  content: "xf30d"; }
+
+.mdi-houzz::before {
+  content: "xf30e"; }
+
+.mdi-houzz-box::before {
+  content: "xf30f"; }
+
+.mdi-human::before {
+  content: "xf310"; }
+
+.mdi-human-child::before {
+  content: "xf311"; }
+
+.mdi-human-male-female::before {
+  content: "xf312"; }
+
+.mdi-image-album::before {
+  content: "xf313"; }
+
+.mdi-image-area::before {
+  content: "xf314"; }
+
+.mdi-image-area-close::before {
+  content: "xf315"; }
+
+.mdi-image-filter::before {
+  content: "xf316"; }
+
+.mdi-image-filter-black-white::before {
+  content: "xf317"; }
+
+.mdi-image-filter-center-focus::before {
+  content: "xf318"; }
+
+.mdi-image-filter-drama::before {
+  content: "xf319"; }
+
+.mdi-image-filter-frames::before {
+  content: "xf31a"; }
+
+.mdi-image-filter-hdr::before {
+  content: "xf31b"; }
+
+.mdi-image-filter-none::before {
+  content: "xf31c"; }
+
+.mdi-image-filter-tilt-shift::before {
+  content: "xf31d"; }
+
+.mdi-image-filter-vintage::before {
+  content: "xf31e"; }
+
+.mdi-information::before {
+  content: "xf31f"; }
+
+.mdi-information-outline::before {
+  content: "xf320"; }
+
+.mdi-instagram::before {
+  content: "xf321"; }
+
+.mdi-instapaper::before {
+  content: "xf322"; }
+
+.mdi-internet-explorer::before {
+  content: "xf323"; }
+
+.mdi-invert-colors::before {
+  content: "xf324"; }
+
+.mdi-key::before {
+  content: "xf325"; }
+
+.mdi-key-change::before {
+  content: "xf326"; }
+
+.mdi-key-minus::before {
+  content: "xf327"; }
+
+.mdi-key-plus::before {
+  content: "xf328"; }
+
+.mdi-key-remove::before {
+  content: "xf329"; }
+
+.mdi-key-variant::before {
+  content: "xf32a"; }
+
+.mdi-keyboard::before {
+  content: "xf32b"; }
+
+.mdi-keyboard-backspace::before {
+  content: "xf32c"; }
+
+.mdi-keyboard-caps::before {
+  content: "xf32d"; }
+
+.mdi-keyboard-close::before {
+  content: "xf32e"; }
+
+.mdi-keyboard-off::before {
+  content: "xf32f"; }
+
+.mdi-keyboard-return::before {
+  content: "xf330"; }
+
+.mdi-keyboard-tab::before {
+  content: "xf331"; }
+
+.mdi-label::before {
+  content: "xf332"; }
+
+.mdi-label-outline::before {
+  content: "xf333"; }
+
+.mdi-laptop::before {
+  content: "xf334"; }
+
+.mdi-laptop-chromebook::before {
+  content: "xf335"; }
+
+.mdi-laptop-mac::before {
+  content: "xf336"; }
+
+.mdi-laptop-windows::before {
+  content: "xf337"; }
+
+.mdi-lastfm::before {
+  content: "xf338"; }
+
+.mdi-launch::before {
+  content: "xf339"; }
+
+.mdi-layers::before {
+  content: "xf33a"; }
+
+.mdi-layers-off::before {
+  content: "xf33b"; }
+
+.mdi-leaf::before {
+  content: "xf33c"; }
+
+.mdi-library::before {
+  content: "xf33d"; }
+
+.mdi-library-books::before {
+  content: "xf33e"; }
+
+.mdi-library-music::before {
+  content: "xf33f"; }
+
+.mdi-library-plus::before {
+  content: "xf340"; }
+
+.mdi-lightbulb::before {
+  content: "xf341"; }
+
+.mdi-link::before {
+  content: "xf342"; }
+
+.mdi-linkedin::before {
+  content: "xf343"; }
+
+.mdi-linux::before {
+  content: "xf344"; }
+
+.mdi-lock::before {
+  content: "xf345"; }
+
+.mdi-lock-open::before {
+  content: "xf346"; }
+
+.mdi-lock-open-outline::before {
+  content: "xf347"; }
+
+.mdi-lock-outline::before {
+  content: "xf348"; }
+
+.mdi-login::before {
+  content: "xf349"; }
+
+.mdi-logout::before {
+  content: "xf34a"; }
+
+.mdi-looks::before {
+  content: "xf34b"; }
+
+.mdi-loupe::before {
+  content: "xf34c"; }
+
+.mdi-lumx::before {
+  content: "xf34d"; }
+
+.mdi-magnify::before {
+  content: "xf34e"; }
+
+.mdi-magnify-minus::before {
+  content: "xf34f"; }
+
+.mdi-magnify-plus::before {
+  content: "xf350"; }
+
+.mdi-map::before {
+  content: "xf351"; }
+
+.mdi-map-marker::before {
+  content: "xf352"; }
+
+.mdi-map-marker-circle::before {
+  content: "xf353"; }
+
+.mdi-map-marker-multiple::before {
+  content: "xf354"; }
+
+.mdi-map-marker-off::before {
+  content: "xf355"; }
+
+.mdi-map-marker-radius::before {
+  content: "xf356"; }
+
+.mdi-markdown::before {
+  content: "xf357"; }
+
+.mdi-marker-check::before {
+  content: "xf358"; }
+
+.mdi-martini::before {
+  content: "xf359"; }
+
+.mdi-material-ui::before {
+  content: "xf35a"; }
+
+.mdi-math-compass::before {
+  content: "xf35b"; }
+
+.mdi-memory::before {
+  content: "xf35c"; }
+
+.mdi-menu::before {
+  content: "xf35d"; }
+
+.mdi-menu-down::before {
+  content: "xf35e"; }
+
+.mdi-menu-left::before {
+  content: "xf35f"; }
+
+.mdi-menu-right::before {
+  content: "xf360"; }
+
+.mdi-menu-up::before {
+  content: "xf361"; }
+
+.mdi-message::before {
+  content: "xf362"; }
+
+.mdi-message-alert::before {
+  content: "xf363"; }
+
+.mdi-message-draw::before {
+  content: "xf364"; }
+
+.mdi-message-image::before {
+  content: "xf365"; }
+
+.mdi-message-processing::before {
+  content: "xf366"; }
+
+.mdi-message-reply::before {
+  content: "xf367"; }
+
+.mdi-message-video::before {
+  content: "xf368"; }
+
+.mdi-microphone::before {
+  content: "xf369"; }
+
+.mdi-microphone-off::before {
+  content: "xf36a"; }
+
+.mdi-microphone-outline::before {
+  content: "xf36b"; }
+
+.mdi-microphone-settings::before {
+  content: "xf36c"; }
+
+.mdi-microphone-variant::before {
+  content: "xf36d"; }
+
+.mdi-microphone-variant-off::before {
+  content: "xf36e"; }
+
+.mdi-minus::before {
+  content: "xf36f"; }
+
+.mdi-minus-box::before {
+  content: "xf370"; }
+
+.mdi-minus-circle::before {
+  content: "xf371"; }
+
+.mdi-minus-circle-outline::before {
+  content: "xf372"; }
+
+.mdi-minus-network::before {
+  content: "xf373"; }
+
+.mdi-monitor::before {
+  content: "xf374"; }
+
+.mdi-monitor-multiple::before {
+  content: "xf375"; }
+
+.mdi-more::before {
+  content: "xf376"; }
+
+.mdi-motorbike::before {
+  content: "xf377"; }
+
+.mdi-mouse::before {
+  content: "xf378"; }
+
+.mdi-mouse-off::before {
+  content: "xf379"; }
+
+.mdi-mouse-variant::before {
+  content: "xf37a"; }
+
+.mdi-mouse-variant-off::before {
+  content: "xf37b"; }
+
+.mdi-movie::before {
+  content: "xf37c"; }
+
+.mdi-multiplication::before {
+  content: "xf37d"; }
+
+.mdi-multiplication-box::before {
+  content: "xf37e"; }
+
+.mdi-music-box::before {
+  content: "xf37f"; }
+
+.mdi-music-box-outline::before {
+  content: "xf380"; }
+
+.mdi-nature::before {
+  content: "xf381"; }
+
+.mdi-nature-people::before {
+  content: "xf382"; }
+
+.mdi-navigation::before {
+  content: "xf383"; }
+
+.mdi-needle::before {
+  content: "xf384"; }
+
+.mdi-nest-protect::before {
+  content: "xf385"; }
+
+.mdi-nest-thermostat::before {
+  content: "xf386"; }
+
+.mdi-newspaper::before {
+  content: "xf387"; }
+
+.mdi-nfc::before {
+  content: "xf388"; }
+
+.mdi-nfc-tap::before {
+  content: "xf389"; }
+
+.mdi-nfc-variant::before {
+  content: "xf38a"; }
+
+.mdi-numeric::before {
+  content: "xf38b"; }
+
+.mdi-numeric-0-box::before {
+  content: "xf38c"; }
+
+.mdi-numeric-0-box-multiple-outline::before {
+  content: "xf38d"; }
+
+.mdi-numeric-0-box-outline::before {
+  content: "xf38e"; }
+
+.mdi-numeric-1-box::before {
+  content: "xf38f"; }
+
+.mdi-numeric-1-box-multiple-outline::before {
+  content: "xf390"; }
+
+.mdi-numeric-1-box-outline::before {
+  content: "xf391"; }
+
+.mdi-numeric-2-box::before {
+  content: "xf392"; }
+
+.mdi-numeric-2-box-multiple-outline::before {
+  content: "xf393"; }
+
+.mdi-numeric-2-box-outline::before {
+  content: "xf394"; }
+
+.mdi-numeric-3-box::before {
+  content: "xf395"; }
+
+.mdi-numeric-3-box-multiple-outline::before {
+  content: "xf396"; }
+
+.mdi-numeric-3-box-outline::before {
+  content: "xf397"; }
+
+.mdi-numeric-4-box::before {
+  content: "xf398"; }
+
+.mdi-numeric-4-box-multiple-outline::before {
+  content: "xf399"; }
+
+.mdi-numeric-4-box-outline::before {
+  content: "xf39a"; }
+
+.mdi-numeric-5-box::before {
+  content: "xf39b"; }
+
+.mdi-numeric-5-box-multiple-outline::before {
+  content: "xf39c"; }
+
+.mdi-numeric-5-box-outline::before {
+  content: "xf39d"; }
+
+.mdi-numeric-6-box::before {
+  content: "xf39e"; }
+
+.mdi-numeric-6-box-multiple-outline::before {
+  content: "xf39f"; }
+
+.mdi-numeric-6-box-outline::before {
+  content: "xf3a0"; }
+
+.mdi-numeric-7-box::before {
+  content: "xf3a1"; }
+
+.mdi-numeric-7-box-multiple-outline::before {
+  content: "xf3a2"; }
+
+.mdi-numeric-7-box-outline::before {
+  content: "xf3a3"; }
+
+.mdi-numeric-8-box::before {
+  content: "xf3a4"; }
+
+.mdi-numeric-8-box-multiple-outline::before {
+  content: "xf3a5"; }
+
+.mdi-numeric-8-box-outline::before {
+  content: "xf3a6"; }
+
+.mdi-numeric-9-box::before {
+  content: "xf3a7"; }
+
+.mdi-numeric-9-box-multiple-outline::before {
+  content: "xf3a8"; }
+
+.mdi-numeric-9-box-outline::before {
+  content: "xf3a9"; }
+
+.mdi-numeric-9-plus-box::before {
+  content: "xf3aa"; }
+
+.mdi-numeric-9-plus-box-multiple-outline::before {
+  content: "xf3ab"; }
+
+.mdi-numeric-9-plus-box-outline::before {
+  content: "xf3ac"; }
+
+.mdi-nutriton::before {
+  content: "xf3ad"; }
+
+.mdi-office::before {
+  content: "xf3ae"; }
+
+.mdi-oil::before {
+  content: "xf3af"; }
+
+.mdi-omega::before {
+  content: "xf3b0"; }
+
+.mdi-onedrive::before {
+  content: "xf3b1"; }
+
+.mdi-open-in-app::before {
+  content: "xf3b2"; }
+
+.mdi-ornament::before {
+  content: "xf3b3"; }
+
+.mdi-ornament-variant::before {
+  content: "xf3b4"; }
+
+.mdi-package::before {
+  content: "xf3b5"; }
+
+.mdi-package-down::before {
+  content: "xf3b6"; }
+
+.mdi-package-up::before {
+  content: "xf3b7"; }
+
+.mdi-palette::before {
+  content: "xf3b8"; }
+
+.mdi-palette-advanced::before {
+  content: "xf3b9"; }
+
+.mdi-panda::before {
+  content: "xf3ba"; }
+
+.mdi-pandora::before {
+  content: "xf3bb"; }
+
+.mdi-panorama::before {
+  content: "xf3bc"; }
+
+.mdi-panorama-fisheye::before {
+  content: "xf3bd"; }
+
+.mdi-panorama-horizontal::before {
+  content: "xf3be"; }
+
+.mdi-panorama-vertical::before {
+  content: "xf3bf"; }
+
+.mdi-panorama-wide-angle::before {
+  content: "xf3c0"; }
+
+.mdi-paper-cut-vertical::before {
+  content: "xf3c1"; }
+
+.mdi-paperclip::before {
+  content: "xf3c2"; }
+
+.mdi-parking::before {
+  content: "xf3c3"; }
+
+.mdi-pause::before {
+  content: "xf3c4"; }
+
+.mdi-pause-circle::before {
+  content: "xf3c5"; }
+
+.mdi-pause-circle-outline::before {
+  content: "xf3c6"; }
+
+.mdi-pause-octagon::before {
+  content: "xf3c7"; }
+
+.mdi-pause-octagon-outline::before {
+  content: "xf3c8"; }
+
+.mdi-pencil::before {
+  content: "xf3c9"; }
+
+.mdi-pencil-box::before {
+  content: "xf3ca"; }
+
+.mdi-pencil-box-outline::before {
+  content: "xf3cb"; }
+
+.mdi-pharmacy::before {
+  content: "xf3cc"; }
+
+.mdi-phone::before {
+  content: "xf3cd"; }
+
+.mdi-phone-bluetooth::before {
+  content: "xf3ce"; }
+
+.mdi-phone-forward::before {
+  content: "xf3cf"; }
+
+.mdi-phone-hangup::before {
+  content: "xf3d0"; }
+
+.mdi-phone-in-talk::before {
+  content: "xf3d1"; }
+
+.mdi-phone-locked::before {
+  content: "xf3d2"; }
+
+.mdi-phone-missed::before {
+  content: "xf3d3"; }
+
+.mdi-phone-paused::before {
+  content: "xf3d4"; }
+
+.mdi-phone-settings::before {
+  content: "xf3d5"; }
+
+.mdi-pig::before {
+  content: "xf3d6"; }
+
+.mdi-pill::before {
+  content: "xf3d7"; }
+
+.mdi-pin::before {
+  content: "xf3d8"; }
+
+.mdi-pin-off::before {
+  content: "xf3d9"; }
+
+.mdi-pine-tree::before {
+  content: "xf3da"; }
+
+.mdi-pine-tree-box::before {
+  content: "xf3db"; }
+
+.mdi-pinterest::before {
+  content: "xf3dc"; }
+
+.mdi-pizza::before {
+  content: "xf3dd"; }
+
+.mdi-play::before {
+  content: "xf3de"; }
+
+.mdi-play-box-outline::before {
+  content: "xf3df"; }
+
+.mdi-play-circle::before {
+  content: "xf3e0"; }
+
+.mdi-play-circle-outline::before {
+  content: "xf3e1"; }
+
+.mdi-playlist-plus::before {
+  content: "xf3e2"; }
+
+.mdi-plus::before {
+  content: "xf3e3"; }
+
+.mdi-plus-box::before {
+  content: "xf3e4"; }
+
+.mdi-plus-circle::before {
+  content: "xf3e5"; }
+
+.mdi-plus-circle-outline::before {
+  content: "xf3e6"; }
+
+.mdi-plus-network::before {
+  content: "xf3e7"; }
+
+.mdi-plus-one::before {
+  content: "xf3e8"; }
+
+.mdi-pocket::before {
+  content: "xf3e9"; }
+
+.mdi-poll::before {
+  content: "xf3ea"; }
+
+.mdi-poll-box::before {
+  content: "xf3eb"; }
+
+.mdi-polymer::before {
+  content: "xf3ec"; }
+
+.mdi-popcorn::before {
+  content: "xf3ed"; }
+
+.mdi-pound::before {
+  content: "xf3ee"; }
+
+.mdi-pound-box::before {
+  content: "xf3ef"; }
+
+.mdi-power::before {
+  content: "xf3f0"; }
+
+.mdi-power-settings::before {
+  content: "xf3f1"; }
+
+.mdi-presentation::before {
+  content: "xf3f2"; }
+
+.mdi-printer::before {
+  content: "xf3f3"; }
+
+.mdi-puzzle::before {
+  content: "xf3f4"; }
+
+.mdi-qrcode::before {
+  content: "xf3f5"; }
+
+.mdi-quadcopter::before {
+  content: "xf3f6"; }
+
+.mdi-quality-high::before {
+  content: "xf3f7"; }
+
+.mdi-quicktime::before {
+  content: "xf3f8"; }
+
+.mdi-radiator::before {
+  content: "xf3f9"; }
+
+.mdi-radioactive::before {
+  content: "xf3fa"; }
+
+.mdi-radiobox-blank::before {
+  content: "xf3fb"; }
+
+.mdi-radiobox-marked::before {
+  content: "xf3fc"; }
+
+.mdi-rdio::before {
+  content: "xf3fd"; }
+
+.mdi-read::before {
+  content: "xf3fe"; }
+
+.mdi-readability::before {
+  content: "xf3ff"; }
+
+.mdi-receipt::before {
+  content: "xf400"; }
+
+.mdi-recycle::before {
+  content: "xf401"; }
+
+.mdi-redo::before {
+  content: "xf402"; }
+
+.mdi-redo-variant::before {
+  content: "xf403"; }
+
+.mdi-refresh::before {
+  content: "xf404"; }
+
+.mdi-relative-scale::before {
+  content: "xf405"; }
+
+.mdi-reload::before {
+  content: "xf406"; }
+
+.mdi-remote::before {
+  content: "xf407"; }
+
+.mdi-rename-box::before {
+  content: "xf408"; }
+
+.mdi-repeat::before {
+  content: "xf409"; }
+
+.mdi-repeat-off::before {
+  content: "xf40a"; }
+
+.mdi-repeat-once::before {
+  content: "xf40b"; }
+
+.mdi-replay::before {
+  content: "xf40c"; }
+
+.mdi-reply::before {
+  content: "xf40d"; }
+
+.mdi-reply-all::before {
+  content: "xf40e"; }
+
+.mdi-responsive::before {
+  content: "xf40f"; }
+
+.mdi-rewind::before {
+  content: "xf410"; }
+
+.mdi-ribbon::before {
+  content: "xf411"; }
+
+.mdi-rocket::before {
+  content: "xf412"; }
+
+.mdi-rotate-3d::before {
+  content: "xf413"; }
+
+.mdi-rotate-left::before {
+  content: "xf414"; }
+
+.mdi-rotate-left-variant::before {
+  content: "xf415"; }
+
+.mdi-rotate-right::before {
+  content: "xf416"; }
+
+.mdi-rotate-right-variant::before {
+  content: "xf417"; }
+
+.mdi-routes::before {
+  content: "xf418"; }
+
+.mdi-rss::before {
+  content: "xf419"; }
+
+.mdi-rss-box::before {
+  content: "xf41a"; }
+
+.mdi-ruler::before {
+  content: "xf41b"; }
+
+.mdi-run::before {
+  content: "xf41c"; }
+
+.mdi-satellite::before {
+  content: "xf41d"; }
+
+.mdi-satellite-variant::before {
+  content: "xf41e"; }
+
+.mdi-scale::before {
+  content: "xf41f"; }
+
+.mdi-scale-bathroom::before {
+  content: "xf420"; }
+
+.mdi-school::before {
+  content: "xf421"; }
+
+.mdi-screen-rotation::before {
+  content: "xf422"; }
+
+.mdi-screen-rotation-lock::before {
+  content: "xf423"; }
+
+.mdi-script::before {
+  content: "xf424"; }
+
+.mdi-sd::before {
+  content: "xf425"; }
+
+.mdi-security::before {
+  content: "xf426"; }
+
+.mdi-security-network::before {
+  content: "xf427"; }
+
+.mdi-select::before {
+  content: "xf428"; }
+
+.mdi-select-inverse::before {
+  content: "xf429"; }
+
+.mdi-select-off::before {
+  content: "xf42a"; }
+
+.mdi-send::before {
+  content: "xf42b"; }
+
+.mdi-server::before {
+  content: "xf42c"; }
+
+.mdi-server-minus::before {
+  content: "xf42d"; }
+
+.mdi-server-network::before {
+  content: "xf42e"; }
+
+.mdi-server-network-off::before {
+  content: "xf42f"; }
+
+.mdi-server-off::before {
+  content: "xf430"; }
+
+.mdi-server-plus::before {
+  content: "xf431"; }
+
+.mdi-server-remove::before {
+  content: "xf432"; }
+
+.mdi-server-security::before {
+  content: "xf433"; }
+
+.mdi-settings::before {
+  content: "xf434"; }
+
+.mdi-settings-box::before {
+  content: "xf435"; }
+
+.mdi-shape-plus::before {
+  content: "xf436"; }
+
+.mdi-share::before {
+  content: "xf437"; }
+
+.mdi-share-variant::before {
+  content: "xf438"; }
+
+.mdi-shopping::before {
+  content: "xf439"; }
+
+.mdi-shopping-music::before {
+  content: "xf43a"; }
+
+.mdi-shuffle::before {
+  content: "xf43b"; }
+
+.mdi-sign-caution::before {
+  content: "xf43c"; }
+
+.mdi-silverware::before {
+  content: "xf43d"; }
+
+.mdi-silverware-fork::before {
+  content: "xf43e"; }
+
+.mdi-silverware-spoon::before {
+  content: "xf43f"; }
+
+.mdi-silverware-variant::before {
+  content: "xf440"; }
+
+.mdi-sim-alert::before {
+  content: "xf441"; }
+
+.mdi-skip-next::before {
+  content: "xf442"; }
+
+.mdi-skip-previous::before {
+  content: "xf443"; }
+
+.mdi-snowman::before {
+  content: "xf444"; }
+
+.mdi-sort::before {
+  content: "xf445"; }
+
+.mdi-sort-alphabetical::before {
+  content: "xf446"; }
+
+.mdi-sort-ascending::before {
+  content: "xf447"; }
+
+.mdi-sort-descending::before {
+  content: "xf448"; }
+
+.mdi-sort-numeric::before {
+  content: "xf449"; }
+
+.mdi-sort-variant::before {
+  content: "xf44a"; }
+
+.mdi-soundcloud::before {
+  content: "xf44b"; }
+
+.mdi-source-fork::before {
+  content: "xf44c"; }
+
+.mdi-source-pull::before {
+  content: "xf44d"; }
+
+.mdi-speaker::before {
+  content: "xf44e"; }
+
+.mdi-speaker-off::before {
+  content: "xf44f"; }
+
+.mdi-speedometer::before {
+  content: "xf450"; }
+
+.mdi-spellcheck::before {
+  content: "xf451"; }
+
+.mdi-spotify::before {
+  content: "xf452"; }
+
+.mdi-spotlight::before {
+  content: "xf453"; }
+
+.mdi-spotlight-beam::before {
+  content: "xf454"; }
+
+.mdi-star::before {
+  content: "xf455"; }
+
+.mdi-star-circle::before {
+  content: "xf456"; }
+
+.mdi-star-half::before {
+  content: "xf457"; }
+
+.mdi-star-outline::before {
+  content: "xf458"; }
+
+.mdi-stocking::before {
+  content: "xf459"; }
+
+.mdi-stop::before {
+  content: "xf45a"; }
+
+.mdi-store::before {
+  content: "xf45b"; }
+
+.mdi-store-24-hour::before {
+  content: "xf45c"; }
+
+.mdi-stove::before {
+  content: "xf45d"; }
+
+.mdi-subway::before {
+  content: "xf45e"; }
+
+.mdi-swap-horizontal::before {
+  content: "xf45f"; }
+
+.mdi-swap-vertical::before {
+  content: "xf460"; }
+
+.mdi-swim::before {
+  content: "xf461"; }
+
+.mdi-sword::before {
+  content: "xf462"; }
+
+.mdi-sync::before {
+  content: "xf463"; }
+
+.mdi-sync-alert::before {
+  content: "xf464"; }
+
+.mdi-sync-off::before {
+  content: "xf465"; }
+
+.mdi-tab::before {
+  content: "xf466"; }
+
+.mdi-tab-unselected::before {
+  content: "xf467"; }
+
+.mdi-table::before {
+  content: "xf468"; }
+
+.mdi-tablet::before {
+  content: "xf469"; }
+
+.mdi-tablet-android::before {
+  content: "xf46a"; }
+
+.mdi-tablet-ipad::before {
+  content: "xf46b"; }
+
+.mdi-tag::before {
+  content: "xf46c"; }
+
+.mdi-tag-faces::before {
+  content: "xf46d"; }
+
+.mdi-tag-outline::before {
+  content: "xf46e"; }
+
+.mdi-tag-text-outline::before {
+  content: "xf46f"; }
+
+.mdi-taxi::before {
+  content: "xf470"; }
+
+.mdi-television::before {
+  content: "xf471"; }
+
+.mdi-television-guide::before {
+  content: "xf472"; }
+
+.mdi-temperature-celsius::before {
+  content: "xf473"; }
+
+.mdi-temperature-fahrenheit::before {
+  content: "xf474"; }
+
+.mdi-temperature-kelvin::before {
+  content: "xf475"; }
+
+.mdi-tent::before {
+  content: "xf476"; }
+
+.mdi-terrain::before {
+  content: "xf477"; }
+
+.mdi-text-to-speech::before {
+  content: "xf478"; }
+
+.mdi-text-to-speech-off::before {
+  content: "xf479"; }
+
+.mdi-texture::before {
+  content: "xf47a"; }
+
+.mdi-theater::before {
+  content: "xf47b"; }
+
+.mdi-thermometer::before {
+  content: "xf47c"; }
+
+.mdi-thermometer-lines::before {
+  content: "xf47d"; }
+
+.mdi-thumb-down::before {
+  content: "xf47e"; }
+
+.mdi-thumb-up::before {
+  content: "xf47f"; }
+
+.mdi-thumbs-up-down::before {
+  content: "xf480"; }
+
+.mdi-ticket::before {
+  content: "xf481"; }
+
+.mdi-ticket-account::before {
+  content: "xf482"; }
+
+.mdi-tie::before {
+  content: "xf483"; }
+
+.mdi-timelapse::before {
+  content: "xf484"; }
+
+.mdi-timer::before {
+  content: "xf485"; }
+
+.mdi-timer-10::before {
+  content: "xf486"; }
+
+.mdi-timer-3::before {
+  content: "xf487"; }
+
+.mdi-timer-off::before {
+  content: "xf488"; }
+
+.mdi-timer-sand::before {
+  content: "xf489"; }
+
+.mdi-timetable::before {
+  content: "xf48a"; }
+
+.mdi-toggle-switch::before {
+  content: "xf48b"; }
+
+.mdi-toggle-switch-off::before {
+  content: "xf48c"; }
+
+.mdi-tooltip::before {
+  content: "xf48d"; }
+
+.mdi-tooltip-edit::before {
+  content: "xf48e"; }
+
+.mdi-tooltip-image::before {
+  content: "xf48f"; }
+
+.mdi-tooltip-outline::before {
+  content: "xf490"; }
+
+.mdi-tooltip-text::before {
+  content: "xf491"; }
+
+.mdi-tor::before {
+  content: "xf492"; }
+
+.mdi-traffic-light::before {
+  content: "xf493"; }
+
+.mdi-train::before {
+  content: "xf494"; }
+
+.mdi-tram::before {
+  content: "xf495"; }
+
+.mdi-transcribe::before {
+  content: "xf496"; }
+
+.mdi-transcribe-close::before {
+  content: "xf497"; }
+
+.mdi-trending-down::before {
+  content: "xf498"; }
+
+.mdi-trending-neutral::before {
+  content: "xf499"; }
+
+.mdi-trending-up::before {
+  content: "xf49a"; }
+
+.mdi-trophy::before {
+  content: "xf49b"; }
+
+.mdi-trophy-award::before {
+  content: "xf49c"; }
+
+.mdi-trophy-variant::before {
+  content: "xf49d"; }
+
+.mdi-truck::before {
+  content: "xf49e"; }
+
+.mdi-tshirt-crew::before {
+  content: "xf49f"; }
+
+.mdi-tshirt-v::before {
+  content: "xf4a0"; }
+
+.mdi-tumblr::before {
+  content: "xf4a1"; }
+
+.mdi-tumblr-reblog::before {
+  content: "xf4a2"; }
+
+.mdi-twitch::before {
+  content: "xf4a3"; }
+
+.mdi-twitter::before {
+  content: "xf4a4"; }
+
+.mdi-twitter-box::before {
+  content: "xf4a5"; }
+
+.mdi-twitter-retweet::before {
+  content: "xf4a6"; }
+
+.mdi-ubuntu::before {
+  content: "xf4a7"; }
+
+.mdi-undo::before {
+  content: "xf4a8"; }
+
+.mdi-undo-variant::before {
+  content: "xf4a9"; }
+
+.mdi-unfold-less::before {
+  content: "xf4aa"; }
+
+.mdi-unfold-more::before {
+  content: "xf4ab"; }
+
+.mdi-upload::before {
+  content: "xf4ac"; }
+
+.mdi-usb::before {
+  content: "xf4ad"; }
+
+.mdi-vector-curve::before {
+  content: "xf4ae"; }
+
+.mdi-vector-point::before {
+  content: "xf4af"; }
+
+.mdi-vector-square::before {
+  content: "xf4b0"; }
+
+.mdi-verified::before {
+  content: "xf4b1"; }
+
+.mdi-vibrate::before {
+  content: "xf4b2"; }
+
+.mdi-video::before {
+  content: "xf4b3"; }
+
+.mdi-video-off::before {
+  content: "xf4b4"; }
+
+.mdi-video-switch::before {
+  content: "xf4b5"; }
+
+.mdi-view-agenda::before {
+  content: "xf4b6"; }
+
+.mdi-view-array::before {
+  content: "xf4b7"; }
+
+.mdi-view-carousel::before {
+  content: "xf4b8"; }
+
+.mdi-view-column::before {
+  content: "xf4b9"; }
+
+.mdi-view-dashboard::before {
+  content: "xf4ba"; }
+
+.mdi-view-day::before {
+  content: "xf4bb"; }
+
+.mdi-view-headline::before {
+  content: "xf4bc"; }
+
+.mdi-view-list::before {
+  content: "xf4bd"; }
+
+.mdi-view-module::before {
+  content: "xf4be"; }
+
+.mdi-view-quilt::before {
+  content: "xf4bf"; }
+
+.mdi-view-stream::before {
+  content: "xf4c0"; }
+
+.mdi-view-week::before {
+  content: "xf4c1"; }
+
+.mdi-voicemail::before {
+  content: "xf4c2"; }
+
+.mdi-volume-high::before {
+  content: "xf4c3"; }
+
+.mdi-volume-low::before {
+  content: "xf4c4"; }
+
+.mdi-volume-medium::before {
+  content: "xf4c5"; }
+
+.mdi-volume-off::before {
+  content: "xf4c6"; }
+
+.mdi-walk::before {
+  content: "xf4c7"; }
+
+.mdi-wallet::before {
+  content: "xf4c8"; }
+
+.mdi-wallet-giftcard::before {
+  content: "xf4c9"; }
+
+.mdi-wallet-membership::before {
+  content: "xf4ca"; }
+
+.mdi-wallet-travel::before {
+  content: "xf4cb"; }
+
+.mdi-watch::before {
+  content: "xf4cc"; }
+
+.mdi-water::before {
+  content: "xf4cd"; }
+
+.mdi-water-off::before {
+  content: "xf4ce"; }
+
+.mdi-water-pump::before {
+  content: "xf4cf"; }
+
+.mdi-weather-cloudy::before {
+  content: "xf4d0"; }
+
+.mdi-weather-hail::before {
+  content: "xf4d1"; }
+
+.mdi-weather-lightning::before {
+  content: "xf4d2"; }
+
+.mdi-weather-night::before {
+  content: "xf4d3"; }
+
+.mdi-weather-partlycloudy::before {
+  content: "xf4d4"; }
+
+.mdi-weather-pouring::before {
+  content: "xf4d5"; }
+
+.mdi-weather-rainy::before {
+  content: "xf4d6"; }
+
+.mdi-weather-snowy::before {
+  content: "xf4d7"; }
+
+.mdi-weather-sunny::before {
+  content: "xf4d8"; }
+
+.mdi-weather-sunset::before {
+  content: "xf4d9"; }
+
+.mdi-weather-sunset-down::before {
+  content: "xf4da"; }
+
+.mdi-weather-sunset-up::before {
+  content: "xf4db"; }
+
+.mdi-weather-windy::before {
+  content: "xf4dc"; }
+
+.mdi-weather-windy-variant::before {
+  content: "xf4dd"; }
+
+.mdi-web::before {
+  content: "xf4de"; }
+
+.mdi-webcam::before {
+  content: "xf4df"; }
+
+.mdi-whatsapp::before {
+  content: "xf4e0"; }
+
+.mdi-wheelchair-accessibility::before {
+  content: "xf4e1"; }
+
+.mdi-white-balance-auto::before {
+  content: "xf4e2"; }
+
+.mdi-white-balance-incandescent::before {
+  content: "xf4e3"; }
+
+.mdi-white-balance-irradescent::before {
+  content: "xf4e4"; }
+
+.mdi-white-balance-sunny::before {
+  content: "xf4e5"; }
+
+.mdi-wifi::before {
+  content: "xf4e6"; }
+
+.mdi-wikipedia::before {
+  content: "xf4e7"; }
+
+.mdi-window-closed::before {
+  content: "xf4e8"; }
+
+.mdi-window-open::before {
+  content: "xf4e9"; }
+
+.mdi-windows::before {
+  content: "xf4ea"; }
+
+.mdi-wordpress::before {
+  content: "xf4eb"; }
+
+.mdi-xbox::before {
+  content: "xf4ec"; }
+
+.mdi-xda::before {
+  content: "xf4ed"; }
+
+.mdi-xml::before {
+  content: "xf4ee"; }
+
+.mdi-youtube-play::before {
+  content: "xf4ef"; }
+
+.mdi-zip-box::before {
+  content: "xf4f0"; }
