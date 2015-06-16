@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/nisnaker/gulp-rev-rep.svg)](https://travis-ci.org/nisnaker/gulp-rev-rep)
 [![Dependencies](https://david-dm.org/nisnaker/gulp-rev-rep.svg)](https://david-dm.org/nisnaker/gulp-rev-rep)
 [![devDependencies](https://david-dm.org/nisnaker/gulp-rev-rep/dev-status.svg)](https://david-dm.org/nisnaker/gulp-rev-rep#info=devDependencies&view=table)
-[![NPM version](https://badge.fury.io/js/gulp-rev-collector.svg)](http://badge.fury.io/js/gulp-rev-collector)
+[![NPM version](https://badge.fury.io/js/gulp-rev-rep.svg)](http://badge.fury.io/js/gulp-rev-rep)
 
 # gulp-rev-rep
 Replace the asset parts of html with revisioned filename.
