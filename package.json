@@ -1,0 +1,43 @@
+{
+  "name": "gulp-rev-rep",
+  "version": "1.0.1",
+  "description": "Replace the asset parts of html with revisioned filename.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisnaker/gulp-rev-rep.git"
+  },
+  "author": "nisnaker <nisnaker@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "rev",
+    "revision",
+    "version",
+    "versioning",
+    "static",
+    "asset",
+    "assets"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": ">=0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/nisnaker/gulp-rev-rep/issues"
+  },
+  "homepage": "https://github.com/nisnaker/gulp-rev-rep"
+}
