@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/nisnaker/gulp-rev-rep.svg)](https://travis-ci.org/nisnaker/gulp-rev-rep)
+[![Downloads](http://img.shields.io/npm/dm/gulp-rev-rep.svg)](https://npmjs.org/package/gulp-rev-rep)
 [![Dependencies](https://david-dm.org/nisnaker/gulp-rev-rep.svg)](https://david-dm.org/nisnaker/gulp-rev-rep)
 [![devDependencies](https://david-dm.org/nisnaker/gulp-rev-rep/dev-status.svg)](https://david-dm.org/nisnaker/gulp-rev-rep#info=devDependencies&view=table)
 [![NPM version](https://badge.fury.io/js/gulp-rev-rep.svg)](http://badge.fury.io/js/gulp-rev-rep)
