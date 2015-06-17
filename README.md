@@ -15,18 +15,10 @@ $ npm install --save gulp-rev-rep
 ## Usage
 
 ```js
-var gulp = require('gulp'),
-	rev = require('gulp-rev'),
-	filename = require('gulp-asset-manifest'),
-	minifycss = require('gulp-minify-css'),
-	uglify = require('gulp-uglify'),
-	concat = require('gulp-concat'),
-	rep = require('gulp-rev-rep');
-
+var rep = require('gulp-rev-rep');
 
 // group the asset files
-
-var config = [];
+var config = {};
 
 config['csses'] = {
 	libs: [
@@ -44,58 +36,11 @@ config['jses'] = {
 	]
 }
 
-// css tasks
+// css & js tasks
+gulp.task('scss', function(){ /* functin */ });
+gulp.task('css', ['scss'], function(){ /* functin */ });
+gulp.task('js', function(){ /* functin */ });
 
-gulp.task('scss', function(){
-	return gulp.src(config.sassfiles)
-		.pipe($.sass())
-		.pipe($.autoprefixer('last 10 version'))
-		.pipe(gulp.dest(config.buildcssdir));
-});
-
-var css_tasks = [];
-
-for(css_bundle_name in config['csses']) {
-
-	var task_name = 'css-' + css_bundle_name;
-	css_tasks.push(task_name);
-
-	gulp.task(task_name, ['scss'], function(){
-		return gulp.src(config['csses'][css_bundle_name])
-			// .pipe($.concat( css_bundle_name + '.css'))
-			.pipe($.rev())
-			.pipe($.filename({ bundleName: css_bundle_name }))
-			.pipe($.minifycss())
-			.pipe(gulp.dest(config.staticdir + 'css/'));
-	});
-}
-
-gulp.task('css', css_tasks, function(){
-	return gulp
-});
-
-// js tasks
-
-var js_tasks = [];
-
-for(js_bundle_name in config['jses']) {
-
-	var task_name = 'js-' + css_bundle_name;
-	js_tasks.push(task_name);
-
-	gulp.task(task_name, ['scss'], function(){
-		return gulp.src(config['jses'][js_bundle_name])
-			// .pipe($.concat( js_bundle_name + '.js'))
-			.pipe($.uglify())
-			.pipe($.rev())
-			.pipe($.filename({ bundleName: js_bundle_name }))
-			.pipe(gulp.dest(config.staticdir + 'js/'))
-	});
-}
-
-gulp.task('js', js_tasks, function(){
-	return gulp
-});
 
 /*
 asset_manifest.json file contents:
@@ -107,6 +52,7 @@ asset_manifest.json file contents:
   user: [ 'test-07422103d7.css' ] }
 */
 
+// replacement task
 gulp.task('rep', ['js', 'css'], function(){
 	gulp.src(['asset_manifest.json', 'html/**/*.html'])
 		.pipe(rep({
@@ -122,7 +68,7 @@ gulp.task('default', ['css', 'js', 'rep']);
 
 ## Result
 
-from index.html:
+from html/index.html:
 ```html
 <html>
 
@@ -137,7 +83,7 @@ from index.html:
 </html>
 ```
 
-to index.html:
+to public/index.html:
 ```html
 <html>
 

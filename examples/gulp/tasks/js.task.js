@@ -2,22 +2,24 @@ module.exports = function(gulp, config, $){
 
 	var js_tasks = [];
 
-	for(js_bundle_name in config['jses']) {
+	function make_task(bundle_name){
+		var task_name = 'js-' + bundle_name
+		js_tasks.push(task_name)
 
-		var task_name = 'js-' + css_bundle_name;
-		js_tasks.push(task_name);
-
-		gulp.task(task_name, ['scss'], function(){
-			return gulp.src(config['jses'][js_bundle_name])
-				// .pipe($.concat( js_bundle_name + '.js'))
+		var fn = function(){
+			return gulp.src(config['jses'][bundle_name])
+				// .pipe($.concat( bundle_name + '.js'))
 				.pipe($.uglify())
 				.pipe($.rev())
-				.pipe($.filename({ bundleName: js_bundle_name }))
-				.pipe(gulp.dest(config.staticdir + 'js/'))
-		});
+				.pipe($.filename({ bundleName: bundle_name, log: true }))
+				.pipe(gulp.dest(config.staticdir + 'js/'))		}
+
+		gulp.task(task_name, fn);
 	}
 
-	gulp.task('js', js_tasks, function(){
-		return gulp
-	});
+	for(bundle_name in config['jses']) {
+		make_task(bundle_name);
+	}
+
+	gulp.task('js', js_tasks);
 }

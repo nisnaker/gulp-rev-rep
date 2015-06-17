@@ -9,23 +9,26 @@ module.exports = function(gulp, config, $){
 
 	var css_tasks = [];
 
-	for(css_bundle_name in config['csses']) {
+	function make_task(bundle_name){
+		var task_name = 'css-' + bundle_name
+		css_tasks.push(task_name)
 
-		var task_name = 'css-' + css_bundle_name;
-		css_tasks.push(task_name);
-
-		gulp.task(task_name, ['scss'], function(){
-			return gulp.src(config['csses'][css_bundle_name])
-				// .pipe($.concat( css_bundle_name + '.css'))
+		var fn = function(){
+			return gulp.src(config['csses'][bundle_name])
+				// .pipe($.concat( bundle_name + '.css'))
 				.pipe($.rev())
-				.pipe($.filename({ bundleName: css_bundle_name }))
+				.pipe($.filename({ bundleName: bundle_name, log:true }))
 				.pipe($.minifycss())
 				.pipe(gulp.dest(config.staticdir + 'css/'));
-		});
+		}
+
+		gulp.task(task_name, ['scss'], fn);
 	}
 
-	gulp.task('css', css_tasks, function(){
-		return gulp
-	});
+	for(bundle_name in config['csses']) {
+		make_task(bundle_name)
+	}
+
+	gulp.task('css', css_tasks);
 
 }
