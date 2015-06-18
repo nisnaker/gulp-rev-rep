@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-rep",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Replace the asset parts of html with revisioned filename.",
   "license": "MIT",
   "repository": {
