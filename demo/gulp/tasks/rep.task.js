@@ -1,10 +1,11 @@
 module.exports = function(gulp, config, $){
 
 	gulp.task('rep', ['js', 'css'], function(){
-		gulp.src(['asset_manifest.json', 'html/**/*.html'])
+		gulp.src(['html/**/*.html'])
 			.pipe($.rep({
-				js_path: '/static/js',
-				css_path: '/static/css/'
+				manifestPath: 'asset_manifest.json',
+				jsPath: '/static/js',
+				cssPath: '/static/css/'
 			}))
 			.pipe(gulp.dest('public'))
 	});

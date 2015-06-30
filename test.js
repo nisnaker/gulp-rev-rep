@@ -10,13 +10,13 @@ var fs = require('fs');
 var manifest_body = '{"libs":["bootstrap.min-eedf9ee80c.css","angular.min-5b860c722c.js","bootstrap-2183d05f5a.css"],"user":["test-07422103d7.css"]}';
 
 it('asset tags replace test', function (cb) {
-	var manifest_path = 'manifile.json';
-	fs.writeFileSync(manifest_path, manifest_body);
+	var manifestPath = 'manifile.json';
+	fs.writeFileSync(manifestPath, manifest_body);
 
 	var stream = rep({
-		manifest_path: manifest_path,
-		js_path: '/static/js', // <-- miss / in the end
-		css_path: '/static/css/'
+		manifestPath: manifestPath,
+		jsPath: '/static/js', // <-- miss / in the end
+		cssPath: '/static/css/'
 	});
 
 	// stream.write(new gutil.File({
@@ -45,8 +45,8 @@ it('asset tags replace test', function (cb) {
 	});
 
 
-	if(fs.existsSync(manifest_path)) {
-		fs.unlinkSync(manifest_path)
+	if(fs.existsSync(manifestPath)) {
+		fs.unlinkSync(manifestPath)
 	}
 
 	cb();

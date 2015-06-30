@@ -9,16 +9,16 @@ var PLUGIN_NAME = 'gulp-rev-rep';
 
 
 module.exports = function(opts){
-	opts = opts || { manifest_path: 'asset_manifest.json', js_path: 'rep/js/', css_path: 'rep/css/' };
+	opts = opts || { manifestPath: 'asset_manifest.json', jsPath: 'rep/js/', cssPath: 'rep/css/' };
 	
-	if('/' != opts['js_path'].slice(-1))
-		opts['js_path'] += '/';
-	if('/' != opts['css_path'].slice(-1))
-		opts['css_path'] += '/';
+	if('/' != opts['jsPath'].slice(-1))
+		opts['jsPath'] += '/';
+	if('/' != opts['cssPath'].slice(-1))
+		opts['cssPath'] += '/';
 
 
 	try{
-		var json_data = fs.readFileSync(opts.manifest_path, "utf-8");
+		var json_data = fs.readFileSync(opts.manifestPath, "utf-8");
 		var manifest = JSON.parse(json_data);
 	}
 	catch (x) {
@@ -54,9 +54,9 @@ module.exports = function(opts){
 			asset = manifest[bundleName][i]
 			ext = path.extname(asset)
 			if('.js' == ext)
-				s.push('<script src="' + opts.js_path + asset + '"></script>')
+				s.push('<script src="' + opts.jsPath + asset + '"></script>')
 			else if('.css' == ext)
-				s.push('<link rel="stylesheet" href="' + opts.css_path + asset + '">')
+				s.push('<link rel="stylesheet" href="' + opts.cssPath + asset + '">')
 		}
 
 		return s.join("\n")
