@@ -3,21 +3,31 @@ var gutil = require('gulp-util');
 var PluginError  = gutil.PluginError;
 var through = require('through2');
 var path = require('path');
+var fs = require('fs');
 
 var PLUGIN_NAME = 'gulp-rev-rep';
 
 
 module.exports = function(opts){
-	opts = opts || { js_path: 'rep/js/', css_path: 'rep/css/' };
-	var i;
-	for(i in opts) {
-		if('/' != opts[i].slice(-1))
-			opts[i] += '/'
+	opts = opts || { manifest_path: 'asset_manifest.json', js_path: 'rep/js/', css_path: 'rep/css/' };
+	
+	if('/' != opts['js_path'].slice(-1))
+		opts['js_path'] += '/';
+	if('/' != opts['css_path'].slice(-1))
+		opts['css_path'] += '/';
+
+
+	try{
+		var json_data = fs.readFileSync(opts.manifest_path, "utf-8");
+		var manifest = JSON.parse(json_data);
+	}
+	catch (x) {
+		throw new PluginError(PLUGIN_NAME, x);
+		return;
 	}
 
-	// collect json & html files
-	var manifest = {};
-	var htmlfiles = [];
+	// collect html files
+	var files = [];
 
 	// get bundleNames from html files, and replace them
 	var reps = {};
@@ -40,7 +50,7 @@ module.exports = function(opts){
 			return ''
 
 		var s = [], asset, ext;
-		for(i in manifest[bundleName]) {
+		for(var i in manifest[bundleName]) {
 			asset = manifest[bundleName][i]
 			ext = path.extname(asset)
 			if('.js' == ext)
@@ -57,31 +67,14 @@ module.exports = function(opts){
 		
 		// collect files
 		if(!file.isNull()) {
-			var ext = path.extname(file.path);
-			if(ext === '.json') {
-				var json = {}
-			
-				try{
-					var content = file.contents.toString('utf-8');
-					if(content) {
-						manifest = JSON.parse(content);
-					}
-				} catch (x) {
-					this.emit('error', new PluginError(PLUGIN_NAME, x))
-					return;
-				}
-			}
-			else if(ext === '.html')
-			{
-				htmlfiles.push(file)
-			}
+			files.push(file)
 		}
 
 		cb();
 	}, function(cb){
 
 		// process each html file
-		htmlfiles.forEach(function (file) {
+		files.forEach(function (file) {
 
 			var src = file.contents.toString('utf-8');
 
